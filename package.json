@@ -1,0 +1,20 @@
+{
+  "name": "format-string",
+  "version": "1.0.0",
+  "description": "Simple string formatters with no dependencies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glassblowerscat/format-string.git"
+  },
+  "author": "glassblowerscat",
+  "license": "ISC"
+}
